@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: gray;
+            margin: 0px;
+        }
+        main {
+            background-color: white;
+        }
+        
+        header {
+            background-color: white;
+            font-family: arial;
+            text-align: center;
+            margin-top: 0px;
+            padding: 10px;
+            box-shadow: 2px 3px 10px 0px rgba(0, 0, 0, 0.589);
+        }
+        
+        nav {
+            background-color: black;
+            padding: 2px;
+            margin: 1px;
+            box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.521);
+            border-radius: 4px;
+        }
+        nav > a {
+            text-decoration: none;
+            margin: 30px;
+            color: white;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        .assuntos {
+            text-align: center;
+        }
+        .notícias {
+            background-color: white;
+        }
+        
+
+        
+        article > h2 {
+            width: 250px;
+            padding: 4px;
+            margin: 1px;
+        }
+        article {
+            background-color: white;
+            margin: 5px;
+        }
+        article > aside {
+            background-color: lightgray;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            height: 20px;
+            padding: 5px;
+        }
+        .circle{
+            height: 60px;
+            width: 60px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.274);
+            border: 0px;
+        }
+        .circle:hover {
+            background-color: rgb(240, 240, 240);
+        }
+        .circle:active {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+            <a href="*">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section class="assuntos">
+            <p>O esporte e a política</p>
+        </section>
+        <section class="notícias">
+            <article>
+                <h2>Notícias Rio de Janeiro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore minus ea aperiam quaerat repellat excepturi delectus, sint nemo voluptates ex corrupti esse non iste? Ducimus eius ex repellat ab praesentium.</p>
+                <aside>
+                    <p>Artigo escrito por Lorem ipsum</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícias São Paulo</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, illum expedita. Quis accusantium obcaecati ipsa exercitationem neque optio quos consectetur!</p>
+                <aside>
+                    Artigo escrito por Lorem
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        Desenvolvido por Guilherme Boechat
+    </footer>
+    <a href="https://www.youtube.com/" target="_blank" rel="external">
+        <button class="circle"></button>
+    </a>
+</body>
+</html>

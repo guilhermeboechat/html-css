@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+h2 {
+    text-align: center;
+    color: rgb(56, 56, 56);
+    text-shadow: -1px 1px 2px rgba(128, 128, 128, 0.295);
+}
+
+
+
+main {
+ 
+}
+
+p {
+    text-align: center;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+picture {
+    margin: auto;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
