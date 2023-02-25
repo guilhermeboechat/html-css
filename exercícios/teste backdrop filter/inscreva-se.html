@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+    
+    .miniTitulo{
+        margin-top: 10px;
+    }
+
+    .inscreva-se{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .box1{
+        height: 373px;
+    }
+
+    input{
+        margin-top: 2px;
+    }
+
+    .japossui{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.8em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.linkJapossui{
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.linkJapossui:hover{
+    color: #b05bff;
+}
+
+.termos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox{
+    width: 13px;
+    margin-left: 20px;
+}
+
+label{
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 0.7em;
+    padding-left: 5px;
+}
+
+</style>
+<body>
+    <main>
+        <header>
+            <nav>
+                <a href="index.html">Login</a>
+                <a href="">|</a>
+                <a href="code-pag.html">Projeto</a>
+            </nav>
+        </header>
+        <h1>Hello & Welcome</h1>
+        <div class="box1">
+            <p class="miniTitulo-email">usuário</p>
+            <input type="text" id="text" class="input1" type="input"></input>
+            <p class="miniTitulo">email</p>
+            <input type="email" id="email" class="input1" type="input"></input>
+            <p class="miniTitulo">senha</p>
+            <input type="password" class="senha" type="input"></input>
+            <p class="miniTitulo">confirmar senha</p>
+            <input type="password" class="senha" type="input"></input>
+
+            <div class="termos">
+                <input type="checkbox" class="checkbox">
+                <label  for="checkbox">aceito os termos de uso
+                </label>
+            </div>
+
+            
+        <div><button class="inscreva-se">Inscreva-se</button></div>
+        <p class="japossui">Já possui uma conta? <a href="index.html" class="linkJapossui" target="_self">Faça login</a></p>
+        </div>
+        
+    </main>
+</body>
+</html>
